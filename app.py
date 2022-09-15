@@ -1,5 +1,5 @@
 
-from flask import Flask, request, render_template, jsonify
+from flask import Flask, jsonify
 from db import get_by_data
 from query import*
 
